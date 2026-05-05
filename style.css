@@ -222,7 +222,7 @@ body{
   background-size: cover;
   width: 223px;
   height: 223px;
-  border-radius: 11px;
+  border-radius: 12px;
 }
 
 @media (min-width: 550px) {
