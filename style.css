@@ -111,7 +111,7 @@ body{
   padding-bottom: 12px;
 }
 .card-productifity .card-image{
-  background-image: url(./assets/img1.png);
+  background-image: url(./assets/prod.png);
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -127,7 +127,58 @@ body{
   padding-bottom: 12px;
 }
 .card-marketing .card-image{
-  background-image: url(./assets/img2.png);
+  background-image: url(./assets/market.png);
+  background-size: cover;
+  background-position: center;
+  flex-direction: row;
+  border-radius: 20px;
+  width: 176px;
+  height: 176px;
+}
+.card-code{
+  display: flex;
+  flex-direction: column;
+  width: 176px;
+  height: 287px;
+  gap: 12px;
+  padding-bottom: 12px;
+}
+.card-code .card-image{
+  background-image: url(./assets/code.png);
+  background-size: cover;
+  background-position: center;
+  flex-direction: row;
+  border-radius: 20px;
+  width: 176px;
+  height: 176px;
+}
+.card-design{
+  display: flex;
+  flex-direction: column;
+  width: 176px;
+  height: 287px;
+  gap: 12px;
+  padding-bottom: 12px;
+}
+.card-design .card-image{
+  background-image: url(./assets/grapich.png);
+  background-size: cover;
+  background-position: center;
+  flex-direction: row;
+  border-radius: 20px;
+  width: 176px;
+  height: 176px;
+}
+.card-tools{
+  display: flex;
+  flex-direction: column;
+  width: 176px;
+  height: 287px;
+  gap: 12px;
+  padding-bottom: 12px;
+}
+.card-tools .card-image{
+  background-image: url(./assets/ai.png);
   background-size: cover;
   background-position: center;
   flex-direction: row;
@@ -237,7 +288,7 @@ body{
   padding-bottom: 12px;
 }
 .card-ai .card-image1{
-  background-image: url(./assets/img4.png);
+  background-image: url(./assets/ftr1.png);
   background-position: center;
   background-size: cover;
   width: 223px;
@@ -245,7 +296,7 @@ body{
   border-radius: 12px;
 }
 .card-ai .card-image2{
-  background-image: url(./assets/img5.png);
+  background-image: url(./assets/ftr2.png);
   background-position: center;
   background-size: cover;
   width: 223px;
@@ -296,6 +347,7 @@ body{
   justify-content: center;
   width: auto;
   height: 24px;
+  margin: 20px;
   gap: 16px;
 }
 .footer-sosmed .image-ig{
@@ -303,7 +355,6 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 5px;
   width: 24px;
   height: 24px;
 }
@@ -312,7 +363,6 @@ body{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 5px;
   width: 24px;
   height: 24px;
 }
@@ -321,56 +371,387 @@ body{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 5px;
   width: 24px;
   height: 24px;
 }
+.footer-date{
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  width: auto;
+  height: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
 
 
-@media (min-width: 550px) {
-  .hero-container {
-    color: white;
-    height: 1100px;
-  }
+@media (min-width: 768px) {
   .nav-container{
-    border-bottom: 1px solid white;
     padding: 0px 20px;
+    display: flex;
+    width: auto;
+    height: 65px;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
   }
+ .logo{
+  background-color:white;
+  width: 19px;
+  height: 19px;
+  margin-top: 14px;
+  margin-left: 20px;
+}
   .logo a{
-    margin: auto;
-  }
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
   .nav-list{
     display: flex;
-    gap: 20px;
+    gap: 36px;
   }
   .nav-list ul{
+    color: white;
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 20px; 
+    gap: 36px; 
   }
   .button{
     background-color: #0800ff;
     color: white;
-    border-radius: 18px;
+    border-radius: 20px;
+    text-align: center;
+    min-width: 84px;
+    max-width: 480px;
     outline: none;
     border: none;
-    padding: 8px 20px;
-    margin: auto;
   }
+  .header-container{
+    display: flex;
+    padding: 20px 160px;
+    height: auto;
+    width: auto;
+  }
+  .hero-container{ 
+    display:flex;
+    flex-direction: column; 
+    width: auto;  
+}
   .hero-background{
+    display: flex;
+    width: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./assets/hero.png);
-    width: 800px;
-    padding: 240px 120px;
-    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 16px;
   }
   .hero-title{
-    position: absolute;
-    align-self: center;
+    text-align: center;
     color: white;
-
   }
+  .hero-desc{
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  .hero-categories{
+  padding-top: 20px;
+  padding: 16px;
+  }
+  .hero-categories h1{
+    color: white;
+    font-size: bold;
+    font-size: 22px;
+    padding-top: 20px;
+    font-weight: 700px;
+    line-height: 28px;
+    width: 348px;
+    height: 48px;
+  }
+  .categories-card{
+    background-color: #0c1930;
+    display: flex;
+    gap: 12px;
+    margin:1px 16px;
+  }
+  .card-productifity{
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    height: 287px;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+  .card-productifity .card-image{
+    background-image: url(./assets/prod.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 176px;
+    width: 176px;
+  }
+  .card-marketing{
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    height: 287px;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+  .card-marketing .card-image{
+    background-image: url(./assets/market.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 176px;
+    height: 176px;
+  }
+  .card-code{
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    height: 287px;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+  .card-code .card-image{
+    background-image: url(./assets/code.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 176px;
+    height: 176px;
+  }
+  .card-design{
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    height: 287px;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+  .card-design .card-image{
+    background-image: url(./assets/grapich.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 176px;
+    height: 176px;
+  }
+  .card-tools{
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    height: 287px;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+  .card-tools .card-image{
+    background-image: url(./assets/ai.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+    border-radius: 20px;
+    width: 176px;
+    height: 176px;
+  }
+  .card-text h1{
+    color: white;
+    font-size: 16px;
+    font-style: medium;
+    line-height: 24px;
+  }
+  .card-text a{
+    color: #919CC9;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .feature-card{
+  color: white;
+  flex-direction: column;
+  padding: 16px;
+  }
+  .card-feature{
+    display: flex;
+    width: 928px;
+    height: 256px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .card-feature .card-image{
+    background-image: url(./assets/img3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 410px;
+    height: 256px;
+    border-radius: 12px;
+    flex-shrink: 0;
+  }
+  .card-feature h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  .card-feature a{
+    color: #919CC9;
+    display: flex;
+    font-size: 14px;
+    word-spacing: 3px;
+    padding: 20px 0px;
+  }
+  .button-more{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+  }
+  .tranding-card{
+    display: flex;
+    width: 100%;
+    height: 360px;
+    padding: 16px;
+    gap: 12px;
+  }
+  .card-ai{
+    color: white;
+    flex-direction: column;
+    width: 223px;
+    height: 334px;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+  .card-ai .card-image1{
+    background-image: url(./assets/ftr1.png);
+    background-position: center;
+    background-size: cover;
+    width: 223px;
+    height: 223px;
+    border-radius: 12px;
+  }
+  .card-ai .card-image2{
+    background-image: url(./assets/ftr2.png);
+    background-position: center;
+    background-size: cover;
+    width: 223px;
+    height: 223px;
+    border-radius: 12px;
+  }
+  .card-ai .card-image3{
+    background-image: url(./assets/ftr3.png);
+    background-position: center;
+    background-size: cover;
+    width: 223px;
+    height: 223px;
+    border-radius: 12px;
+  }
+  .card-ai .card-image4{
+    background-image: url(./assets/ftr4.png);
+    background-position: center;
+    background-size: cover;
+    width: 223px;
+    height: 223px;
+    border-radius: 12px;
+  }
+  .text-ai{
+    width: 223px;
+    height: 87px;
+  }
+  .text-ai h1{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+  .text-ai a{
+    color: #919CC9;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+  }
+  .footer-container{
+    margin:0px 160px;
+    padding: 20px 40px;
+    padding: 40px 20px;
+    width: 960px;
+    height: 200px;
+  }
+  .footer-grid ul{
+    color: aliceblue;
+    width: auto;
+    height: 72px;
+    display: flex;
+    list-style: none;
+    padding: 0px 72px;
+    min-width: 160px;
+    justify-content: space-between;
+  }
+  .footer-grid ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+  }
+  .footer-sosmed{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 24px;
+    margin: 20px;
+    gap: 16px;
+  }
+  .footer-sosmed .image-ig{
+    background-image: url(./assets/Instagram.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+  .footer-sosmed .image-wa{
+    background-image: url(./assets/Whatsaapp.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  .footer-sosmed .image-fb{
+    background-image: url(./assets/Facebook.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+  .footer-date{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: auto;
+    height: 24px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
 }
