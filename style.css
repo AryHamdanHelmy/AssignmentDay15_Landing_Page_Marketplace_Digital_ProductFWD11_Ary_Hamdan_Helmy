@@ -32,7 +32,7 @@ body{
     align-items: center;
     margin-left: 35px;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 20px;
     color: white;
 }
 .button{
@@ -195,12 +195,12 @@ button:hover{
 }
 .card-text h1{
   color: white;
-  font-size: 1.2rem;
+  font-size: 16px;
   font-weight: bold;
 }
 .card-text a{
   color: white;
-  font-size: 0.9rem;
+  font-size: 14px;
 }
 .hero-feature{
   display: flex;
@@ -210,7 +210,7 @@ button:hover{
   padding: 0px 16px;
 }
 .hero-feature h1{
-    color: white;
+  color: white;
   font-size: bold;
   font-size: 22px;
   padding-top: 20px;
@@ -244,12 +244,12 @@ button:hover{
 }
 .card-feature h1{
   display: flex;
-  font-size: 1.2rem;
+  font-size: 16px;
   padding-top: 20px;
 }
 .card-feature a{
   display: flex;
-  font-size: 1.1rem;
+  font-size: 14px;
   word-spacing: 3px;
   padding: 20px 0px;
 }
@@ -260,7 +260,7 @@ button:hover{
   outline: none;
   border: none;
   color: white;
-  font-size: 1rem;
+  font-size: 16px;
 }
 .hero-tranding{
   color: white;
@@ -414,7 +414,7 @@ button:hover{
     align-items: center;
     margin-left: 35px;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 20px;
     color: white;
 }
   .nav-list{
@@ -587,10 +587,25 @@ button:hover{
     font-size: 14px;
     line-height: 21px;
   }
+  .hero-feature{
+    display: flex;
+    color: white;
+    padding-bottom: 12px;
+    padding-top: 20px;
+    padding: 0px 16px;
+  }
   .feature-card{
+    color: white;
+    flex-direction: column;
+    padding: 16px;
+  }
+  .hero-feature h1{
   color: white;
-  flex-direction: column;
-  padding: 16px;
+  font-size: bold;
+  font-size: 22px;
+  padding-top: 20px;
+  font-weight: 700px;
+  line-height: 28px;
   }
   .card-feature{
     display: flex;
@@ -610,18 +625,19 @@ button:hover{
     border-radius: 12px;
     flex-shrink: 0;
   }
-  .card-feature h1{
+  .text-feature h1{
     display: flex;
     flex-direction: column;
     font-size: 16px;
     padding-top: 20px;
   }
-  .card-feature a{
+  .text-feature a{
+    text-align: start;
     color: #919CC9;
     display: flex;
     font-size: 14px;
     word-spacing: 3px;
-    padding: 20px 0px;
+    margin-right:168px;
   }
   .button-more{
     padding: 10px 20px;
@@ -630,7 +646,7 @@ button:hover{
     outline: none;
     border: none;
     color: white;
-    font-size: 1rem;
+    font-size: 16px;
   }
   .tranding-card{
     display: flex;
