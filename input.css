@@ -2,7 +2,7 @@
 
 @layer components{
     .btn{
-    @apply bg-blue-500 h-10 w-22 rounded-lg flex justify-center items-center hover:bg-blue-700;
+    @apply bg-blue-500 h-10 w-22 rounded-lg flex justify-center items-center hover:bg-blue-700 hover:scale-105 cursor-pointer;
     }
     .card{
     @apply text-base font-bold pt-4;
