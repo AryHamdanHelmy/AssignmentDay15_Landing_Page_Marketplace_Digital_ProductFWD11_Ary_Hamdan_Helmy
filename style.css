@@ -444,6 +444,9 @@ button:hover{
     list-style: none;
     gap: 36px; 
   }
+  .list-text li .a{
+    color: white;
+  }
   .button{
     background-color: #0800ff;
     color: white;
