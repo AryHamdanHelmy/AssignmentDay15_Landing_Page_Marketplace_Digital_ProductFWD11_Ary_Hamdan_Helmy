@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" 
+            rel="stylesheet"/>
+</head>
+<body>
+    <main class="bg-white w-full">
+    <section id="navbar"
+            class="bg-white/20 border-black/30 border-b-2 z-50 fixed w-full h-16 backdrop-blur-md">
+        <nav class="flex justify-between items-center h-16">
+            <div class="px-5 mx-3 flex justify-between gap-1">
+                <img src="./assets/icon/logo (2).png" class="w-4 h-4 mt-1.5"/>
+                <div class="text-center text-lg font-bold">
+                    <h1>DebiEdu</h1>
+                </div>
+            </div>
+            <div class="hidden md:block w-full">
+                <ul class="text-black gap-4 md:flex md:justify-end">
+                    <li>Home</li>
+                    <li>Courses</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="text-white px-5 mx-3">
+                <button class="btn">
+                    <p>Log in</p>
+                </button>
+            </div>
+        </nav>
+    </section>
+    <section id="hero" class="pt-16 px-3">
+        <div class="flex flex-col justify-center items-center">
+        <div class="flex gap-5 justify-center">
+            <div class="w-full flex items-center py-10 px-4 sm:px-50">
+                <div class="relative">
+                    <img src="./assets/bg-image/bg.png" alt="background-judul"
+                        class="w-160 h-auto sm:w-232 sm:h-120 bg-cover rounded-2xl">
+                    <div class="absolute inset-0 flex justify-center text-center flex-col items-center gap-5">
+                        <h1 class="text-white font-bold text-3xl sm:text-5xl sm:tracking-tight">Unlock Your Potential with EduLearn</h1>
+                        <p>Embark on a journey of knowledge and skill development with our comprehensive online courses. Learn at your own pace, anytime, anywhere.</p>
+                        <button class="btn">
+                            <p class="text-white">Learn more</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="About" class="w-full px-3 sm:px-0">
+        <div class="w-full py-7 px-3">
+            <div class="flex justify-center flex-col gap-5 sm:px-50">
+                <div>
+                <h1 class="text-4xl font-bold">Why Choose EduLearn?</h1>
+                <p class="pt-5 text-base">Our platform is designed to provide a seamless and effective learning experience, ensuring you gain the skills you need to succeed.</p>
+                </div>
+            </div>
+            <div class="flex w-full flex-col-4 justify-between gap-3 pt-10 sm:px-50  ">
+                <div class="w-78 h-45 border-2 border-black/30 rounded-2xl ">
+                    <div class="py-7 px-3">
+                        <img src="./assets/icon/icon1.png"/>
+                        <h1 class="card">Online Material</h1>
+                        <p class="desc-card">Access a vast library of high-quality learning materials, including videos, articles, and interactive content.</p>
+                    </div>
+                </div>
+                <div class="w-78 h-45 border-2 border-black/30 rounded-2xl">
+                    <div class="py-7 px-3">
+                        <img src="./assets/icon/icon2.png"/>
+                        <h1 class="card">Quizzes & Assignments</h1>
+                        <p class="desc-card">Test your knowledge and reinforce your learning with engaging quizzes and practical assignments.</p>
+                    </div>
+                </div>
+                <div class="w-78 h-45 hidden md:block border-2 border-black/30 rounded-2xl">
+                    <div class="py-7 px-3">
+                        <h1 class="card">Online Material</h1>
+                        <p class="desc-card">Access a vast library of high-quality learning materials, including videos, articles, and interactive content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="feature" class="w-full px-3">
+        <div class="">
+            <div class="py-2 sm:px-50 px-4 text-2xl font-bold">
+                    <h1>Feature Courses</h1>
+            </div>
+            <div>
+                <div class="flex flex-col-4 justify-between gap-3 py-2 px-3 sm:px-50">
+                    <div class="w-full">
+                        <img src="./assets/bg-image/wd.png" alt="card-webdev"
+                         class="w-74 h-42 rounded-2xl"/>
+                        <div>
+                            <h1 class="card">Web Development Fundamentals</h1>
+                            <p class="desc-card">Learn the basics of HTML, CSS, and JavaScript to build your first website.</p>
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <img src="./assets/bg-image/js.png" alt="card-javascript"
+                        class="w-74 h-42 rounded-2xl"/>
+                        <div>
+                            <h1 class="card">Advanced JavaScript Techniques</h1>
+                            <p class="desc-card">Dive deep into JavaScript concepts like asynchronous programming, closures, and ES6 features.</p>
+                        </div>
+                    </div>
+                     <div class="w-full hidden sm:block">
+                        <img src="./assets/bg-image/js.png" alt="card-design"
+                        class="w-74 h-42 rounded-2xl"/>
+                        <div>
+                            <h1 class="card">Responsive Design Mastery</h1>
+                            <p class="desc-card">Master the art of creating websites that adapt to different screen sizes and devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex justify-center items-center">
+            <button class="bg-mauve-200 w-35 h-10 rounded-lg">
+                <p class="text-black font-bold text-sm">View All Courses</p>
+            </button>
+        </div>
+    </section>
+    <section id="footer" class="w-full px-3">
+        <div class="py-5 px-4 md:px-0">
+            <div class="flex justify-between py-7 sm:px-50">
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="flex justify-center">
+                <h1>© 2026 DibiEdu. All rights reserved.</h1>
+            </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "assignmentday15_landing_page_marketplace_digital_productfwd11_ary_hamdan_helmy",
+  "version": "1.0.0",
+  "description": "assignment",
+  "homepage": "https://github.com/AryHamdanHelmy/AssignmentDay15_Landing_Page_Marketplace_Digital_ProductFWD11_Ary_Hamdan_Helmy#readme",
+  "bugs": {
+    "url": "https://github.com/AryHamdanHelmy/AssignmentDay15_Landing_Page_Marketplace_Digital_ProductFWD11_Ary_Hamdan_Helmy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AryHamdanHelmy/AssignmentDay15_Landing_Page_Marketplace_Digital_ProductFWD11_Ary_Hamdan_Helmy.git"
+  },
+  "license": "ISC",
+  "author": "ary",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
