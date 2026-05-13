@@ -465,12 +465,13 @@ button:hover{
   }
   .hero-container{ 
     display:flex;
-    flex-direction: column; 
+    flex-direction: column;
+    padding: 20px 30px; 
     width: auto;  
 }
   .hero-background{
     display: flex;
-    width: auto;
+    width: 880px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./assets/bg-image/hero.png);
     justify-content: center;
@@ -507,8 +508,7 @@ button:hover{
   }
   .categories-card{
     display: flex;
-    padding: 5px;
-    gap: 9px;
+    gap: 4px;
   }
   .card-productifity{
     display: flex;
