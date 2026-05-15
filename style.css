@@ -118,7 +118,6 @@ button:hover{
   padding-bottom: 12px;
 }
 .card-productifity .card-image{
-  background-image: url(./assets/bg-image/prod.png);
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -134,7 +133,6 @@ button:hover{
   padding-bottom: 12px;
 }
 .card-marketing .card-image{
-  background-image: url(./assets/bg-image/market.png);
   background-size: cover;
   background-position: center;
   flex-direction: row;
@@ -151,7 +149,6 @@ button:hover{
   padding-bottom: 12px;
 }
 .card-code .card-image{
-  background-image: url(./assets/bg-image/code.png);
   background-size: cover;
   background-position: center;
   flex-direction: row;
@@ -168,7 +165,6 @@ button:hover{
   padding-bottom: 12px;
 }
 .card-design .card-image{
-  background-image: url(./assets/bg-image/grapich.png);
   background-size: cover;
   background-position: center;
   flex-direction: row;
@@ -185,7 +181,6 @@ button:hover{
   padding-bottom: 12px;
 }
 .card-tools .card-image{
-  background-image: url(./assets/bg-image/ai.png);
   background-size: cover;
   background-position: center;
   flex-direction: row;
@@ -233,7 +228,6 @@ button:hover{
   gap: 12px;
 }
 .card-feature .card-image{
-  background-image: url(./assets/bg-image/img3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -295,7 +289,7 @@ button:hover{
   padding-bottom: 12px;
 }
 .card-ai .card-image1{
-  background-image: url(./assets/bg-image/ftr1.png);
+  background-image: url();
   background-position: center;
   background-size: cover;
   width: 223px;
@@ -303,7 +297,6 @@ button:hover{
   border-radius: 12px;
 }
 .card-ai .card-image2{
-  background-image: url(./assets/bg-image/ftr2.png);
   background-position: center;
   background-size: cover;
   width: 223px;
@@ -311,7 +304,6 @@ button:hover{
   border-radius: 12px;
 }
 .card-ai .card-image3{
-  background-image: url(./assets/bg-image/ftr3.png);
   background-position: center;
   background-size: cover;
   width: 223px;
@@ -319,7 +311,6 @@ button:hover{
   border-radius: 12px;
 }
 .card-ai .card-image4{
-  background-image: url(./assets/bg-image/ftr4.png);
   background-position: center;
   background-size: cover;
   width: 223px;
@@ -374,7 +365,6 @@ button:hover{
   gap: 16px;
 }
 .footer-sosmed .image-ig{
-  background-image: url(./assets/icon/Instagram.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -382,7 +372,6 @@ button:hover{
   height: 24px;
 }
 .footer-sosmed .image-wa{
-  background-image: url(./assets/icon/Whatsaapp.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -390,7 +379,6 @@ button:hover{
   height: 24px;
 }
 .footer-sosmed .image-fb{
-  background-image: url(./assets/icon/Facebook.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
