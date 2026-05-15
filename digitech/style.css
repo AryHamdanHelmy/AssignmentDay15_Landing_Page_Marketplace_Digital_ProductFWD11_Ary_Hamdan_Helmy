@@ -68,7 +68,7 @@ button:hover{
 .hero-background{
   display: flex;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(./assets/bg-image/hero.png);
+  url(/assets/bg-image/hero.png);
   height: 480px;
   width: auto;
   justify-content: center;
